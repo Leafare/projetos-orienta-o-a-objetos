@@ -3,22 +3,22 @@
 # Pseudocodigo
 
 # Inicio
-# Criar a classe quadrado
-# definir os atributos da classe quadrado
+# Criando a classe Quadrado
+# definindo os atributos da classe Quadrado
 class Quadrado():
     def __init__(self,lado):
         self.lado = lado
-# definir os metodos da classe quadrado
+# definindo os metodos da classe quadrado
     def calcularArea(self):
         return self.lado**2
 
-# Criar uma instancia da classe quadrado com um lado de 5
+# Criando uma instancia da classe Quadrado com um lado de 5
 quadrado = Quadrado(5)
 
-# Calcular a area do quadrado
+# Calculando a area do quadrado
 area = quadrado.calcularArea()
 
-# Imprimir a figura do quadrado
+# Imprimindo a figura do quadrado
 for _ in range(quadrado.lado):
     print('* ' * quadrado.lado)
 
@@ -26,11 +26,11 @@ print("Área do quadrado:", area)
 
 
 
-# Criar a classe retangulo
+# Criando a classe Retangulo
 class Retangulo():
-#definir os atributos da classe retangulo
+#definindo os atributos da classe Retangulo
 
-# definir os metodos da classe retangulo
+# definindo os metodos da classe Retangulo
     def __init__(self, comprimento, largura):
         self.comprimento = comprimento
         self.largura = largura
@@ -46,39 +46,39 @@ for i in range(retangulo.largura):
         print('* ', end='')  
     print()  
 
-# Imprimir a area
+# Imprimindo a area
 print("Área do retângulo:", area)
-# Criar a classe ponto
+# Criando a classe ponto
 
 class Ponto():
-  # definir os atributos da classe ponto como uma coordenada (x,y) e raio como um numero positivo
+  # definindo os atributos da classe Ponto como uma coordenada (x,y) e raio como um numero positivo
     def __init__(self,x,y):
         self.x = x
         self.y = y
 
-# definir os metodos da classe ponto
+# definindo os metodos da classe Ponto
     def mover(self, delta_x, delta_y):
         self.x += delta_x
         self.y += delta_y 
 
-# Criar uma instância de Ponto
-ponto = Ponto(3, 5)  # Por exemplo, um ponto com coordenadas (3, 5)
+# Criando uma instância de Ponto
+ponto = Ponto(3, 5)  
 
-# Imprimir a figura do ponto
+# Imprimindo a figura do ponto
 print("Coordenadas do ponto:", ponto.x, ponto.y)
 
 
-# Criar a classe circulo
-#utilizar o conceito de heranca e herdar os atributos e metodos da classe ponto
+# Criando a classe circulo
+#utilizando o conceito de heranca e herdar os atributos e metodos da classe Ponto
 
 class Circulo(Ponto):
     def __init__(self, x, y, raio):
         super().__init__(x, y)  
         self.raio = raio
 
-# Criar uma instancia de Circulo
-circulo = Circulo(3, 5, 2)  # Por exemplo, um circulo com centro (3, 5) e raio 2
+# Criando uma instancia de Circulo com centro (3, 5) e raio 2
+circulo = Circulo(3, 5, 2)  
 
-# Imprimir a figura do circulo
+# Imprimindo a figura do circulo
 print("Centro do circulo (coordenadas x, y):", circulo.x, circulo.y)
 print("Raio do circulo:", circulo.raio) 
