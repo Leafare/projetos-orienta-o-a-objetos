@@ -15,13 +15,13 @@ class quadrado():
 def calcularArea(self):
   return ( self.lado**2)
 
-# Crie uma instancia da classe Quadrado com um lado de 5
+# Criar uma instancia da classe quadrado com um lado de 5
 quadrado = quadrado(5)
 
-# Calcule a area do quadrado
+# Calcular a area do quadrado
 area = quadrado.calcularArea()
 
-# Imprima a figura do quadrado
+# Imprimir a figura do quadrado
 for _ in range(quadrado.lado):
     print('* ' * quadrado.lado)
 
@@ -32,8 +32,6 @@ print("Área do quadrado:", area)
 # Criar a classe retangulo
 class retangulo():
 #definir os atributos da classe retangulo
-#cumprimento = 
-#largura = 
 
 # definir os metodos da classe retangulo
  def __init__(self, comprimento, largura):
