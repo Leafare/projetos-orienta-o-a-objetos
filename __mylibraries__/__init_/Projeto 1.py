@@ -82,3 +82,4 @@ circulo = Circulo(3, 5, 2)
 # Imprimindo a figura do circulo
 print("Centro do circulo (coordenadas x, y):", circulo.x, circulo.y)
 print("Raio do circulo:", circulo.raio) 
+
