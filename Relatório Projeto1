@@ -1,0 +1,26 @@
+                                                       # PROJETO 1
+
+      Ao iniciar o curso de orientação a objetos foi proposto como uma das primeiras ementas uma série de três projetos inicais cujo objetivo é introduzir 
+de forma prática os conceitos iniciais e principais do curso. Sendo eles os conceitos de classes; construtor; abstração; Encapsulamento; herança;composição;
+coesão e acoplamento.
+      As classes são como receitas ou modelos utilizadas para criar objetos, definem os atributos e métodos que eles terão. Sendo assim criei e iniciei as 
+classes: Quadrado, Retângulo, Ponto e Círculo.
+      Os construtores atribuem valores aos atributos definidos nas classes e constroi instâncias delas. Eles aparecem logo abaixo das classes passando os 
+parâmetros e atribuindo aos atributos. As instâncias informam os atributos do objeto criado ao construtor.
+      Em termos de abstração tive como foco poucas características dos objetos. Para o quadrado foi definido o atributo ( lado ), para o retângulo foram 
+definidos os atributos ( comprimento e largura ), enquanto que para o ponto e o círculo foram definidas coordenadas ( x e y ).
+      A fim de organizar corretamente o código cada uma das classes agregam as informações relevantes para sua manipulação, como em uma capsula. Sendo assim 
+a herança é um outro importante conceito para a organização, pois ela possibilita o compartilhamento de características entre dois objetos como está 
+representada na relação de herança e composição entre o objeto ponto e o objeto círculo, para melhor otimizar o código.
+      Outro importante conceito para a organização é a ideia de coesão, cujo principio é nao misturar responsabilidades para que não haja sobrecarga nos 
+objetos com dados e tarefas que não são deles.
+      Para finalizar vale ressaltar que foi feito apenas um acoplamento, que é o caso da relação de herança entre o objeto círculo e o objeto ponto. 
+O que diminuiui a possibilidade de efeitos colaterais ao modificar os códigos.
+      Ao todo tive que refazer e atualizar o projeto 1 em torno de 20 vezes para chegar no resultado final, utilizando o auxílio da internet e os materiais 
+disponibilizados no Sigaa.
+      
+
+      
+
+      
+      
